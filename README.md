@@ -1,18 +1,19 @@
 <!-- Markdown has 6 headings h1 to h6.
 Number of prefixed hashtags(#) indicates the order of heading 
 Add a space after the hashtags, or else github might not interpret it correctly -->
-# h1 {.heading}
-## h2 {.heading}
+Github cannot render css, as Github marks CSS as unsafe and it is removed in the sanitization process of HTML .
+# h1<!--  {.heading} -->
+## h2<!--  {.heading} -->
 ### h3
 #### h4
 ##### h5
 ###### h6
 
-<style>
+<!-- <style>
 .heading{
     color:red;
 }
-</style>
+</style> -->
 <!-- A single asterisk or underscore around a string turns it to italic  -->
 *asterisk*
 _underscore_
@@ -167,11 +168,11 @@ You cannot embed YouTube videos in markdown using iframe:
 You can use it by adding thumbnail of video as a link to the video:
 
 
-<a href="https://www.youtube.com/watch?v=Sy-VjLr14pI&ab_channel=DJSANTARIKSH" target="blank"><img class="image" alt="thumbnail" src="https://i3.ytimg.com/vi/Sy-VjLr14pI/maxresdefault.jpg" width="240" height="140"></a>
+<a href="https://www.youtube.com/watch?v=Sy-VjLr14pI&ab_channel=DJSANTARIKSH" target="blank"><img class="image" alt="thumbnail" src="https://i3.ytimg.com/vi/Sy-VjLr14pI/maxresdefault.jpg" width="240" height="140" ></a>
 
-<style>
+<!-- <style>
     .image{
         border-radius: 15px;
         border: 3px solid gray
     }
-</style>    
+</style>     -->
