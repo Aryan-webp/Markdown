@@ -1,11 +1,11 @@
 <!-- Markdown has 6 headings h1 to h6.
 Number of prefixed hashtags(#) indicates the order of heading -->
-#h1
-##h2
-###h3
-####h4
-#####h5
-######h6
+# h1
+## h2
+### h3
+#### h4
+##### h5
+###### h6
 
 <!-- A single asterisk or underscore around a string turns it to italic  -->
 *asterisk*
