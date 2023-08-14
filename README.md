@@ -150,5 +150,6 @@ Quote break:
 
 ---
 
-You can also embed youtube videos in markdown using embed:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Sy-VjLr14pI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+You cannot embed YouTube videos in markdown using iframe:
+You can use it by adding thumbnail of video as a link to the video:
+<a href="https://www.youtube.com/watch?v=Sy-VjLr14pI&ab_channel=DJSANTARIKSH" target="blank"><img alt="thumbnail" src="https://i3.ytimg.com/vi/Sy-VjLr14pI/maxresdefault.jpg" width="240" height="140"></a>
