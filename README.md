@@ -60,7 +60,7 @@ To go to Google click [here..](https://www.google.com)
 <!-- You cannot edit height and width using markdown, so use inline HTML instead. -->
 <!-- ![A clean desktop](https://images.unsplash.com/photo-1691600252552-c39f81792a5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60) -->
 
-<img src="https://images.unsplash.com/photo-1691600252552-c39f81792a5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="A clean desktop" width=240 height=140 style="border-radius: 15px; border: 3px solid gray">
+<img class="image" src="https://images.unsplash.com/photo-1691600252552-c39f81792a5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="A clean desktop" width=240 height=140 >
 
 ---
 
@@ -69,7 +69,7 @@ Click this image to go to Unsplash :
 
 
 <!-- [![Green leaf](https://images.unsplash.com/photo-1691858019962-303a7094a581?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzN3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60)](https://unsplash.com/) -->
-<a href="https://unsplash.com/" target="blank"><img src="https://images.unsplash.com/photo-1691858019962-303a7094a581?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzN3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Green Leaf" width=240 height=140 style="border-radius: 15px; border: 3px solid gray"></a>
+<a href="https://unsplash.com/" target="blank"><img class="image" src="https://images.unsplash.com/photo-1691858019962-303a7094a581?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzN3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Green Leaf" width=240 height=140></a>
 
 ---
 
@@ -162,4 +162,11 @@ You cannot embed YouTube videos in markdown using iframe:
 You can use it by adding thumbnail of video as a link to the video:
 
 
-<a href="https://www.youtube.com/watch?v=Sy-VjLr14pI&ab_channel=DJSANTARIKSH" target="blank"><img alt="thumbnail" src="https://i3.ytimg.com/vi/Sy-VjLr14pI/maxresdefault.jpg" width="240" height="140" style="border-radius: 15px; border: 3px solid gray"></a>
+<a href="https://www.youtube.com/watch?v=Sy-VjLr14pI&ab_channel=DJSANTARIKSH" target="blank"><img class="image" alt="thumbnail" src="https://i3.ytimg.com/vi/Sy-VjLr14pI/maxresdefault.jpg" width="240" height="140"></a>
+
+<style>
+    .image{
+        border-radius: 15px;
+        border: 3px solid gray
+    }
+</style>    
