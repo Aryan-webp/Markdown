@@ -1,13 +1,18 @@
 <!-- Markdown has 6 headings h1 to h6.
 Number of prefixed hashtags(#) indicates the order of heading 
 Add a space after the hashtags, or else github might not interpret it correctly -->
-# h1
-## h2
+# h1 {.heading}
+## h2 {.heading}
 ### h3
 #### h4
 ##### h5
 ###### h6
 
+<style>
+.heading{
+    color:red;
+}
+</style>
 <!-- A single asterisk or underscore around a string turns it to italic  -->
 *asterisk*
 _underscore_
