@@ -54,9 +54,101 @@ For unordered list, "mandatory single plus, minus or asterisk" -->
 <!-- To add an anchor, use [anchor text](url) -->
 To go to Google click [here..](https://www.google.com)
 
+---
+
 <!-- To add an image, use ![title text](url) -->
 ![A clean desktop](https://images.unsplash.com/photo-1691600252552-c39f81792a5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60)
+
+---
 
 <!-- To add an image as anchor, use [![title text](image url)](url) -->
 Click this image to go to Unsplash :
 [![Green leaf](https://images.unsplash.com/photo-1691858019962-303a7094a581?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzN3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60)](https://unsplash.com/)
+
+---
+
+- Inline-HTML
+<!-- You can directly write HTML in Markdown, but its not preffered. -->
+<table align="center">
+<tr>
+<th>Heading 1</th>
+<th>Heading 2</th>
+<th>Heading 3</th>
+</tr>
+<tr>
+<td>Row 1, Item 1</td>
+<td colspan=2>Row 1, Item 2</td>
+</tr>
+<tr>
+<td colspan=2>Row 2, Item 1</td>
+<td>Row 2, Item 2</td>
+</tr>
+</table>
+
+---
+
+Inline `code` has `back-ticks around` it.
+
+<!-- Blocks of code are fenced by lines with three back-ticks ``` . After the black-ticks; programming language.
+If no language is specified, it works as pre tag of HTML. -->
+
+```c
+#include <stdio.h>
+
+void main(){
+    int a=7;
+    int b=9;
+    sum(a,b);
+}
+
+void sum(int a, int b){
+    printf("Sum of %d and %d is %d.",a,b,(a+b));
+}
+```
+
+```python
+for i in range(7):
+    print(i)
+```
+
+```
+    Hello
+        Hello
+            Hello
+```
+---
+
+Footnotes:
+<!-- Use [^footnoteName] to create a footnote.
+Use [^footnoteName]: "Footnote text" to add the description of footnote. -->
+
+Here is a simple footnote[^1].
+[^1]: My reference.
+
+A footnote can also have multiple lines[^name].
+[^name]: Every new line should be prefixed with 2 spaces.  
+  This allows you to have a footnote with multiple lines.
+
+---
+
+<!-- Two lines after a paragraph create a new paragraph. -->
+
+<!-- There must be at least 3 dashes separating each header cell.
+There must be one pipe(|) between each inner cell. -->
+Head1 | Head2 | Head3
+---|---|---
+row1 col1| row1 col2 | **row1 col3**
+row2 col1| *row2 col2* | row2 col3
+
+---
+
+<!-- Greater than sign is used to create a block quote -->
+>This is a blockquote
+
+Quote break:
+>This is a very long line that will still be quoted properly when it wraps. Let's keep writing to make sure this is long enough to actually wrap.
+
+---
+
+You can also embed youtube videos in markdown using embed:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sy-VjLr14pI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
