@@ -1,5 +1,6 @@
 <!-- Markdown has 6 headings h1 to h6.
-Number of prefixed hashtags(#) indicates the order of heading -->
+Number of prefixed hashtags(#) indicates the order of heading 
+Add a space after the hashtags, or else github might not interpret it correctly -->
 # h1
 ## h2
 ### h3
